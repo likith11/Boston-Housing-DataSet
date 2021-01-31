@@ -67,6 +67,8 @@ Listed below are different ways to build and run the system. There are a total o
   ```
   &nbsp;
 
+> NOTE : Steps to run shown below in **Steps To RUN the web server** in **To run locally using py file** section:
+
 ---
 
 &nbsp;
@@ -86,7 +88,7 @@ Listed below are different ways to build and run the system. There are a total o
   foo@bar:~$ docker run -p 5000:5000 boston-housing-predictor
   ```
 
-> - NOTE : To run the server follow the steps mentioned in section **1.2** API Call.
+> NOTE : Steps to run also shown below in **Steps To RUN the web server** in **To run the docker image** section.
 
 &nbsp;
 &nbsp;
@@ -103,6 +105,8 @@ Listed below are different ways to build and run the system. There are a total o
   ```console
   foo@bar:~$ docker run -p 5000:5000 boston-housing-predictor
   ```
+
+> NOTE : Steps to run also shown below in **Steps To RUN the web server** in **To run the docker image** section.
 
 ---
 
