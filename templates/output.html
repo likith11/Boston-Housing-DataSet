@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<div class="container">
+
+
+    <form action="/" method="GET"></form>
+    <br>
+        <div class="row">
+        
+
+        <div class="alert alert-success center-block" role="alert">
+            <p class="text-center"> MEDV: Median value of owner-occupied homes in $1000s for the input values is: 
+                     <strong>{{result}}</strong>  
+            </p>
+        </div> 
+
+
+        <div class="row">
+            <div class="col text-center">
+              <button onclick="goBack()"  class="btn btn-info " id="buttonsubmit" >Retry ?</button>
+            </div>
+          </div>
+       
+
+      <script>
+        function goBack() {
+          window.history.back();
+        }
+        </script>
+
+
+
+
+
+</div>
+{% endblock %}
