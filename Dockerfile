@@ -1,6 +1,6 @@
 FROM python:3.9.1-buster
 
-WORKDIR /similarity
+WORKDIR /boston_housing
 
 # Install Dependencies
 COPY requirements.txt .
